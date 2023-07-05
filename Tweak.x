@@ -55,6 +55,7 @@ BOOL isAd(id node) {
             || [description containsString:@"product_item"]
             || [description containsString:@"text_search_ad"]
             || [description containsString:@"square_image_layout"] // install app ad
+            || [description containsString:@"primetime_promo.view"] // YouTube promotions
             || [description containsString:@"feed_ad_metadata"])
             return YES;
     }
